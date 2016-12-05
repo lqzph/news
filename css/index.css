@@ -213,13 +213,13 @@ footer .foot{
 }
 .foot div{
     width: 100%;
+    color: #aaaaaa;
     height: 0.8rem;
     text-align: center;
     position: relative;
 }
 .foot .iconfont{
     display: block;
-    color: #aaaaaa;
     position: absolute;
     left: 0;
     right: 0;
@@ -227,13 +227,13 @@ footer .foot{
     margin: auto;
     font-size: 0.3rem ;
 }
-/*.foot .iconfont:hover{*/
-    /*color:#ea413c;*/
-/*}*/
+.foot div:hover{
+    color:#ea413c;
+}
 .foot a{
     display: block;
     font-size: 0.18rem;
-    color: #aaaaaa;
+    /*color: #aaaaaa;*/
     margin-top: 0.5rem;
 }
 @keyframes baxk {
