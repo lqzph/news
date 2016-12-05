@@ -1,0 +1,82 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 ;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 0.58rem;
+}
+header .head{
+    padding: 0 0.2rem;
+    width:100%;
+    height:0.58rem ;
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    display:-webkit-box;
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    justify-content: space-between;
+}
+header .head span{
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+    color:#666;
+}
+header .head span:nth-child(2){
+    transform: rotate(90deg)
+}
+/*内容*/
+.title{
+    width: 100%;
+    height: 1.6rem;
+    padding:0 0.2rem;
+    border-bottom: 2px dashed #dfdfdf;
+}
+.title div:first-child{
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.44rem;
+    font-weight: bold;
+}
+.title div:nth-child(2){
+    height: 0.6rem;
+    display: flex;
+    justify-content:flex-start;
+    line-height: 0.4rem;
+}
+.title div span{
+   color: #dfdfdf;
+    font-size: 0.24rem;
+    margin-right: 0.2rem;
+}
+.con{
+    width: 100%;
+    height: auto;
+    padding: 0.3rem 0.2rem 0;
+}
+.con .con{
+   width: 100%;
+   font-size: 0.24rem;
+}
+.con .tit{
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+.con .zuozhe{
+    font-size: 0.24rem;
+    color: #ccc;
+    text-align: right;
+    margin-top: 0.3rem;
+
+}
