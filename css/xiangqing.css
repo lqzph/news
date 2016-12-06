@@ -33,6 +33,11 @@ header .head span{
     font-size: 0.3rem;
     color:#666;
 }
+header .head span:nth-child(1) a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 header .head span:nth-child(2){
     transform: rotate(90deg)
 }

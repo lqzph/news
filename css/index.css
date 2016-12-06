@@ -64,13 +64,96 @@ nav{
     font-size: 0.3rem;
     transform: rotate(90deg);
 }
-.nav div:hover{
+.nav a:hover{
     border-bottom: 2px solid #ea413c;
 }
 .active{
     border-bottom: 2px solid #ea413c;
 }
+.jia{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top:0
+}
+.xiala{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    left:0;
+    top:1.1rem;
+    z-index:-1;
+    opacity: 0;
+}
+@keyframes xia {
+   0%{
+       height: 0;
+       opacity: 0.5;
+       z-index: -1;
+   }
+    100%{
+        height: 100%;
+        opacity: 1;
+        z-index: 999;
+    }
+}
+@keyframes xia1 {
+    0%{
+        height: 100%;
+        opacity: 1;
+        z-index: 999;
+    }
+    100%{
+        height: 0%;
+        opacity: 0;
+        z-index: -1;
+    }
+}
 
+.qie{
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+    background: #F8F8F8;
+    padding-left: 0.2rem;
+}
+
+.ci{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    margin-top: 0.2rem;
+    justify-content: space-around;
+}
+.ci span{
+    display: block;
+    width: 20%;
+    height: 0.6rem;
+    border-radius: 0.1rem;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+    background: #F8F8F8;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+}
+.ci span:hover{
+    background: #ea413c;
+}
+.qiehuan{
+    height: 5.5rem;
+    margin-top: 0.3rem;
+    background: #F8F8F8;
+}
+.ci span[class=act]{
+    background: #ea413c;
+    color: #fff;
+}
+.ci span:hover{
+    background: #ccc;
+}
 /*banner*/
 .banner{
     width: 100%;
