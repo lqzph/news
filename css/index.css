@@ -316,7 +316,7 @@ footer .foot{
 .foot a{
     display: block;
     font-size: 0.18rem;
-    /*color: #aaaaaa;*/
+    color: #aaaaaa;
     margin-top: 0.5rem;
 }
 @keyframes baxk {
