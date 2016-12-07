@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+<div class="login">
+    <header>
+        <div class="head">
+            <span class="iconfont icon-fanhui"><a href="index.html"></a></span>
+            <span>登录</span>
+        </div>
+    </header>
+    <div class="con">
+        <div class="photo"></div>
+        <div class="denglu">
+            <div class="user">
+                <span class="iconfont icon-wode"></span>
+                <input type="text">
+            </div>
+            <div class="pass">
+                <span class="iconfont icon-wode"></span>
+                <input type="text">
+            </div>
+            <div class="log">登录</div>
+            <div class="tiaozhuan">
+                <span>忘记密码</span>
+                <a href="zhuce.html">注册</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    function size(origins,type) {
+        var type=type||"x"
+        var widths=document.documentElement.clientWidth;
+        var height=document.documentElement.clientHeight;
+        if(type=="x"){
+            var bili=widths/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px";
+        }else if(type=="y"){
+            var bili=height/origins*100;
+            document.getElementsByTagName("html")[0].style.fontSize=bili+"px";
+        }
+    }
+    size(750);
+</script>
+</html>
