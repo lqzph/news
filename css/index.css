@@ -18,14 +18,12 @@ a{
     height:100%;
     position: absolute;
     z-index: 999;
-    animation: img 2s forwards;
 }
 .add img{
     width: 100%;
     height:100%;
     position: absolute;
     z-index: 999;
-    animation: img 2s forwards;
 }
 @keyframes img {
     0%{

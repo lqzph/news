@@ -10,4 +10,18 @@ $(".jia").click(function () {
         flag=true;
     }
 })
+
+    $(".add").click(function () {
+        var flag1=true;
+        if(!flag1){
+            return;
+        }
+        flag1=false;
+        if(flag1==true) {
+            $(".add").css({animation:"img 2s forwards"})
+
+        }
+    })
+
+
 })
